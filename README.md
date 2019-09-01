@@ -1,6 +1,6 @@
 # etabbar
 
-fontSize TabBar，设置fontSize 后，出现抖动(shake) 的解决 方法
+Flutter的TabBar，如果设置fontSize 后，出现抖动(shake) 的解决方法
 
 方案 ：让fontSize不参加动画。
 使用：复制 项目的中的 etab.dart文件到您的项目里面，示例的下面如下：
