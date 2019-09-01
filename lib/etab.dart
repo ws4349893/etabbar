@@ -184,7 +184,6 @@ class _TabStyle extends AnimatedWidget {
             ? defaultUnselectedStyle.fontSize
             : defaultStyle.fontSize);
 
-    print("${animation.value}   ${fontSize}");
     return DefaultTextStyle(
       style: textStyle.copyWith(color: color, fontSize: fontSize),
       child: IconTheme.merge(
